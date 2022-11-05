@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const MyCounter = (props) => {
-  const [countState, setCountState] = useState(77);
+  const [countState, setCountState] = useState(56);
 
   function intCount() {
     setCountState(countState + props.incBy);
@@ -14,4 +14,3 @@ const MyCounter = (props) => {
   );
 };
 export default MyCounter;
-
